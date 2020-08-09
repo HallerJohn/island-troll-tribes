@@ -10,5 +10,5 @@ import LocalObjectIDs
 
 
 init
-    for i = 12 downto 0
-        SetPlayerAbilityAvailable(players[i], ABILITY_GUI_DUMMY, false)
+    // for i = 12 downto 0
+    //     SetPlayerAbilityAvailable(players[i], ABILITY_GUI_DUMMY, false)

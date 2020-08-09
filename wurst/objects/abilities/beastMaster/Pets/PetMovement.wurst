@@ -122,7 +122,7 @@ init
 
     // Used for manual control of the pet.
     // Using triggers for this as it seems the events don't work.
-    let t = CreateTrigger()..addAction(-> onKeyDown(GetTriggerPlayer()))
+    // let t = CreateTrigger()..addAction(-> onKeyDown(GetTriggerPlayer()))
 
-    for index = 0 to bj_MAX_PLAYER_SLOTS - 1
-        t.registerPlayerKeyPress(players[index], OSKEY_R, OSKEY_META.CTRL, true)
+    // for index = 0 to bj_MAX_PLAYER_SLOTS - 1
+    //     t.registerPlayerKeyPress(players[index], OSKEY_R, OSKEY_META.CTRL, true)
